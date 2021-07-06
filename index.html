@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Movie list</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">My Movie list</h1>
+    </header>
+
+
+    <main>
+        <form id="formId">
+            <legend>New movie</legend>
+            <label for="item">Name</label>
+            <input type="text" id="item" class="input">
+            <label for="image">Image</label>
+            <input type="text" id="image" class="input">
+            <label for="release">Release</label>
+            <input type="text" id="release" class="input">
+            <input type="submit" class="submit">
+            <span onclick="newElement()" class="addBtn"></span>
+        <button>Clear list</button>
+        </form>
+
+     
+    <ol id="list" class="list">
+
+        <li class="li">
+
+        <div>
+            <h2>
+White Collar
+            </h2>
+            <p>
+  2010
+            </p>
+          </div>
+         
+        </li>
+        <li class="li">
+          <div>
+            <h2>
+doom
+            </h2>
+            <p>
+  2010
+            </p>
+          </div>
+        </li>
+     
+      </ol>
+  
+
+    </main>
+
+
+    <footer>
+        <P>ALL Right Reserved 2021 ASAC</P>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
